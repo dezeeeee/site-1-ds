@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="fotos/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poesia</title>
+    <link rel="stylesheet" href="poesia.css">
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(45deg,rgb(122, 43, 43), rgb(29, 26, 26));
+  }
+  
+  .poem {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(216, 213, 213);
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    line-height: 1.5;
+  }
+
+  
+         /* Change the link color to #111 (black) on hover */
+         li a:hover {
+    background-color: rgb(160, 45, 45);
+  }
+  .active {
+  background-color: #000000;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    font: size 12px; 
+    font-family: 'Times New Roman';
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .whatsapp-link {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+		}
+ #imagem_whats{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right} 
+ #imagem_whats2{position:fixed;right:0;bottom:0;display:block;cursor:pointer;z-index:9999999;float:right;display:none}
+ @media only screen and (max-width: 999px) and (min-width: 100px){#imagem_whats{display:none}#imagem_whats2{display:block}}
+ 
+
+		.fa-whatsapp {
+			margin-top: 16px;
+            }
+
+</style>
+</head>
+
+
+<body>
+    <ul>
+      <li><a href="index.html"> Home</a></li>
+        <li><a href="calculadora.html">Calculadora</a></li>
+        <li><a href="poesia.html">Poesias</a></li>
+        <li><a href="">Fotos</a></li>
+        <li><a href="sites.html">Sites de Estudo</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul> <br>
+
+    <div class="poem">
+        <h1 class="title">Soneto</h1>
+        <div class="author">Dann</div>
+        <div class="content">
+            <p>
+                Versos de desejo e fervor contém,<br>
+                O sentimento puro que a alma sente<br>
+                No <b style="color: red;">coração</b> pulsa forte o anseio<br>
+                Que transforme todo o devaneio<br>
+                <br>
+                Por uma união plena e verdadeira<br>
+                Cada toque, cada suspiro que marca,<br>
+                <b style="color: red;">amor</b> é <b style="color: blue;">poesia</b> que cativa,<br>
+                Num soneto de <b style="color: rgb(238, 96, 238)">paixão</b> que nunca esquiva.<br>
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class="poem">
+        <h1 class="title">Apaixonado</h1>
+        <div class="author">Dann</div>
+        <div class="content">
+            <p>
+                Garoto <b style="color: red;">apaixonado</b>, <b style="color: darkred;">coração ardente</b>,<br>
+                Em seus <b style="color: brown;">olhos</b> brilha um sonho profundo,<br>
+                Seu peito em chamas, <b style="color: red;">amor</b> insurgente,<br>
+                Versos e suspiros, <b style="color: blueviolet;"></b>paixão pelo mundo.<br>
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class="poem">
+        <h1 class="title">Tal brilho</h1>
+        <div class="author">Dann</div>
+        <div class="content">
+            <p>
+                Um oceano profundo, cativante,<br>
+                Onde a beleza reluz, deslumbrante,<br>
+                E minha alma mergulha em tal brilho,<br>
+                Versos e suspiros, paixão pelo mundo.<br>
+                Perdido em teus olhos, encontro o abrigo...<br>
+                <br>
+            </p>
+        </div>
+    </div>
+    <img id="imagem_whats" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://web.whatsapp.com/send?phone=+5519971613053&amp;text=Eai Dann', '_blank');">
+      <img id="imagem_whats2" src="https://www.ellodigital.com.br/images/whatsapp.png" onClick="window.open('https://api.whatsapp.com/send?phone=+5519971613053&amp;text=Eai Dann', '_blank');">
+</body>
+</html>
